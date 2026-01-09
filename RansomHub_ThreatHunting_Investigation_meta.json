@@ -1,0 +1,1172 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Incident Investigation Report",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          159.185546875,
+          71.34234619140625
+        ],
+        [
+          435.3599548339844,
+          71.34234619140625
+        ],
+        [
+          435.3599548339844,
+          91.34234619140625
+        ],
+        [
+          159.185546875,
+          91.34234619140625
+        ]
+      ]
+    },
+    {
+      "title": "Executive Summary",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.45703125,
+          208.4443359375
+        ],
+        [
+          170.72799682617188,
+          206.7998046875
+        ],
+        [
+          170.72799682617188,
+          220.62982177734375
+        ],
+        [
+          56.45703125,
+          220.7783203125
+        ]
+      ]
+    },
+    {
+      "title": "Environment Overview",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.748046875,
+          543.1298217773438
+        ],
+        [
+          186.6759796142578,
+          541.873046875
+        ],
+        [
+          186.6759796142578,
+          555.1298217773438
+        ],
+        [
+          56.748046875,
+          555.1298217773438
+        ]
+      ]
+    },
+    {
+      "title": "Attack Timeline Overview",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.29296875,
+          659.4298095703125
+        ],
+        [
+          201.96484375,
+          657.8125
+        ],
+        [
+          201.96484375,
+          671.4298095703125
+        ],
+        [
+          55.29296875,
+          671.4298095703125
+        ]
+      ]
+    },
+    {
+      "title": "Investigation Findings",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.748046875,
+          130.3291015625
+        ],
+        [
+          205.17198181152344,
+          130.3291015625
+        ],
+        [
+          205.17198181152344,
+          145.4580078125
+        ],
+        [
+          55.583984375,
+          145.4580078125
+        ]
+      ]
+    },
+    {
+      "title": "External RDP Password Spray",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          210.6953125,
+          178.8427734375
+        ],
+        [
+          383.7959899902344,
+          177.1982421875
+        ],
+        [
+          383.7959899902344,
+          191.52978515625
+        ],
+        [
+          210.6953125,
+          191.52978515625
+        ]
+      ]
+    },
+    {
+      "title": "Scope of Account Compromise",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          206.62109375,
+          524.1798400878906
+        ],
+        [
+          386.7300109863281,
+          522.5498046875
+        ],
+        [
+          386.7300109863281,
+          536.1798400878906
+        ],
+        [
+          206.62109375,
+          536.1798400878906
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1078 Valid Accounts",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.79999923706055,
+          547.0298156738281
+        ],
+        [
+          267.734375,
+          546.3955078125
+        ],
+        [
+          267.56396484375,
+          559.0298156738281
+        ],
+        [
+          55.875,
+          559.0298156738281
+        ]
+      ]
+    },
+    {
+      "title": "Primary Account Used for Lateral Movement",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.875,
+          647.4798126220703
+        ],
+        [
+          309.640625,
+          646.30078125
+        ],
+        [
+          309.640625,
+          659.4798126220703
+        ],
+        [
+          55.875,
+          659.4798126220703
+        ]
+      ]
+    },
+    {
+      "title": "Secondary RDP Infrastructure",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          210.6953125,
+          306.2939453125
+        ],
+        [
+          383.1519775390625,
+          304.6494140625
+        ],
+        [
+          383.1519775390625,
+          318.37982177734375
+        ],
+        [
+          210.6953125,
+          318.6279296875
+        ]
+      ]
+    },
+    {
+      "title": "Internal Network Discovery Using Advanced IP Scanner",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          139.396484375,
+          571.7298278808594
+        ],
+        [
+          456.603515625,
+          570.2412109375
+        ],
+        [
+          456.603515625,
+          583.7298278808594
+        ],
+        [
+          139.396484375,
+          583.7298278808594
+        ]
+      ]
+    },
+    {
+      "title": "Secondary Discovery Using Netscan",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          192.65234375,
+          300.97979736328125
+        ],
+        [
+          401.8759765625,
+          299.7158203125
+        ],
+        [
+          401.8759765625,
+          312.97979736328125
+        ],
+        [
+          192.65234375,
+          313.6943359375
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1046 Network Service Discovery",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.79999923706055,
+          323.5615234375
+        ],
+        [
+          333.212890625,
+          321.9169921875
+        ],
+        [
+          333.0359802246094,
+          335.829833984375
+        ],
+        [
+          56.748046875,
+          335.8955078125
+        ]
+      ]
+    },
+    {
+      "title": "SMB Write Access Validation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          213.896484375,
+          538.9951171875
+        ],
+        [
+          379.907958984375,
+          537.3505859375
+        ],
+        [
+          379.907958984375,
+          551.1298217773438
+        ],
+        [
+          213.896484375,
+          551.1298217773438
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1135 Network Share Discovery",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.748046875,
+          561.607421875
+        ],
+        [
+          324.17999267578125,
+          559.962890625
+        ],
+        [
+          324.17999267578125,
+          573.9798278808594
+        ],
+        [
+          56.748046875,
+          573.9798278808594
+        ]
+      ]
+    },
+    {
+      "title": "Access to Sensitive Internal Documentation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          172.28125,
+          79.759765625
+        ],
+        [
+          422.48199462890625,
+          79.759765625
+        ],
+        [
+          422.48199462890625,
+          93.37982177734375
+        ],
+        [
+          172.28125,
+          93.37982177734375
+        ]
+      ]
+    },
+    {
+      "title": "Credential Harvesting Activity",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          211.568359375,
+          404.9658203125
+        ],
+        [
+          383.267578125,
+          403.3212890625
+        ],
+        [
+          382.6659851074219,
+          417.3798522949219
+        ],
+        [
+          210.404296875,
+          417.3798522949219
+        ]
+      ]
+    },
+    {
+      "title": "Persistent Command and Control via RMM",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          176.064453125,
+          639.72265625
+        ],
+        [
+          418.8740234375,
+          639.72265625
+        ],
+        [
+          418.8740234375,
+          652.1298065185547
+        ],
+        [
+          176.064453125,
+          652.1298065185547
+        ]
+      ]
+    },
+    {
+      "title": "RMM Session Configuration and Operator Host",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          162.677734375,
+          268.4697265625
+        ],
+        [
+          431.8300476074219,
+          268.4697265625
+        ],
+        [
+          431.8300476074219,
+          281.82977294921875
+        ],
+        [
+          162.677734375,
+          281.82977294921875
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1219 Remote Access Software",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.79999923706055,
+          292.6798095703125
+        ],
+        [
+          323.7479553222656,
+          291.08203125
+        ],
+        [
+          323.7479553222656,
+          304.6798095703125
+        ],
+        [
+          55.875,
+          304.6798095703125
+        ]
+      ]
+    },
+    {
+      "title": "Stealth Execution via VBScript",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.875,
+          580.0298156738281
+        ],
+        [
+          231.29200744628906,
+          578.875
+        ],
+        [
+          231.29200744628906,
+          592.0298156738281
+        ],
+        [
+          55.875,
+          592.03125
+        ]
+      ]
+    },
+    {
+      "title": "Batch Script Wrapper for Exfiltration",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          193.525390625,
+          285.62982177734375
+        ],
+        [
+          401.35400390625,
+          284.0927734375
+        ],
+        [
+          401.35400390625,
+          297.62982177734375
+        ],
+        [
+          193.525390625,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1059.003 Windows Command Shell",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.79999923706055,
+          307.52734375
+        ],
+        [
+          350.96484375,
+          305.8828125
+        ],
+        [
+          350.3879699707031,
+          320.47979736328125
+        ],
+        [
+          56.45703125,
+          320.47979736328125
+        ]
+      ]
+    },
+    {
+      "title": "Data Exfiltration Using Rclone",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          211.75,
+          603.8298187255859
+        ],
+        [
+          384.140625,
+          602.3095703125
+        ],
+        [
+          384.140625,
+          615.8298187255859
+        ],
+        [
+          211.75,
+          616.2880859375
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1567.002 Exfiltration to Cloud Storage",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.79999923706055,
+          626.6798095703125
+        ],
+        [
+          362.32794189453125,
+          626.1552734375
+        ],
+        [
+          362.32794189453125,
+          638.6798095703125
+        ],
+        [
+          56.79999923706055,
+          638.6798095703125
+        ]
+      ]
+    },
+    {
+      "title": "Domain Account Password Manipulation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          180.138671875,
+          307.1162109375
+        ],
+        [
+          413.6220397949219,
+          307.1162109375
+        ],
+        [
+          413.6220397949219,
+          320.579833984375
+        ],
+        [
+          180.138671875,
+          320.579833984375
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1098 Account Manipulation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.79999923706055,
+          331.373046875
+        ],
+        [
+          303.8203125,
+          329.728515625
+        ],
+        [
+          303.7559814453125,
+          343.4298400878906
+        ],
+        [
+          55.875,
+          343.4298400878906
+        ]
+      ]
+    },
+    {
+      "title": "Impact Analysis",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          251.728515625,
+          614.6298065185547
+        ],
+        [
+          343.1399841308594,
+          614.6298065185547
+        ],
+        [
+          343.1399841308594,
+          626.6298065185547
+        ],
+        [
+          251.728515625,
+          626.9775390625
+        ]
+      ]
+    },
+    {
+      "title": "Ransomware Deployment via RMM",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.166015625,
+          637.4798126220703
+        ],
+        [
+          255.3280029296875,
+          637.255859375
+        ],
+        [
+          255.3280029296875,
+          649.4798126220703
+        ],
+        [
+          56.166015625,
+          649.4798126220703
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1486 Data Encrypted for Impact",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.45703125,
+          660.3298187255859
+        ],
+        [
+          329.0039367675781,
+          660.3298187255859
+        ],
+        [
+          329.0039367675781,
+          672.3298187255859
+        ],
+        [
+          56.45703125,
+          672.61328125
+        ]
+      ]
+    },
+    {
+      "title": "First Ransomware Execution",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          214.478515625,
+          252.02978515625
+        ],
+        [
+          379.9079895019531,
+          250.791015625
+        ],
+        [
+          379.9079895019531,
+          264.02978515625
+        ],
+        [
+          214.478515625,
+          264.02978515625
+        ]
+      ]
+    },
+    {
+      "title": "SMB-Based Propagation on File Server",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          184.50390625,
+          515.829833984375
+        ],
+        [
+          409.16796875,
+          514.73828125
+        ],
+        [
+          409.16796875,
+          527.829833984375
+        ],
+        [
+          184.50390625,
+          527.89453125
+        ]
+      ]
+    },
+    {
+      "title": "MITRE ATT&CK: T1021.002 SMB Windows Admin Shares",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.79999923706055,
+          538.1728515625
+        ],
+        [
+          369.02398681640625,
+          536.5283203125
+        ],
+        [
+          369.02398681640625,
+          550.6798400878906
+        ],
+        [
+          56.45703125,
+          550.6798400878906
+        ]
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.45703125,
+          58.32977294921875
+        ],
+        [
+          122.06800079345703,
+          56.736328125
+        ],
+        [
+          122.06800079345703,
+          70.32977294921875
+        ],
+        [
+          56.45703125,
+          70.32977294921875
+        ]
+      ]
+    },
+    {
+      "title": "Recommendations",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.166015625,
+          212.966796875
+        ],
+        [
+          164.0439910888672,
+          211.322265625
+        ],
+        [
+          164.0439910888672,
+          225.32977294921875
+        ],
+        [
+          56.166015625,
+          225.32977294921875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          55
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          32
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          23
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          41
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          26
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Picture",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\RansomHub_ThreatHunting_Investigation"
+}
